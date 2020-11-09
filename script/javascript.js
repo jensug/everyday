@@ -5,7 +5,10 @@ document.querySelector('.nav-select-wrapper').addEventListener('click', function
 })
 
 
+
+
 for (const option of document.querySelectorAll(".nav-option")) {
+
     option.addEventListener('click', function() {
         if (!this.classList.contains('selected')) {
             this.parentNode.querySelector('.nav-option.selected').classList.remove('selected');
